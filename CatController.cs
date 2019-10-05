@@ -55,8 +55,7 @@ public class CatController : MonoBehaviour
         {
             musicSource.loop = false;
         }
-        if
-            (Input.GetKey("escape"))
+        if (Input.GetKey("escape"))
             Application.Quit();
     }
 }
